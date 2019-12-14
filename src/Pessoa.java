@@ -4,7 +4,7 @@ public abstract class Pessoa {
     protected String sexo;
     protected float experiencia;
 
-    public Pessoa(String nome, int idade, String sexo, float experiencia) {
+    public Pessoa(String nome, int idade, String sexo) {
         this.nome = nome;
         this.idade = idade;
         this.sexo = sexo;
