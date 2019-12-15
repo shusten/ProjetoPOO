@@ -9,8 +9,17 @@ public class ProjetoVideo {
         g[0] = new Gafanhoto("Jubileu", 22, "M", "juba");
         g[1] = new Gafanhoto("Creuza", 12, "F", "creuzita");
 
-        System.out.println(v[0].toString());
-        System.out.println(g[0].toString());
+        Visualizacao vis = new Visualizacao(g[0], v[2]);
+        System.out.println(vis.toString());
+
+//        System.out.println("Videos\n-----------------------------");
+//        System.out.println(v[0].toString());
+//        System.out.println(v[1].toString());
+//        System.out.println(v[2].toString());
+//        System.out.println("\n Gafanhotos\n-----------------------------");
+//        System.out.println(g[0].toString());
+//        System.out.println(g[1].toString());
+
     }
 
 }
