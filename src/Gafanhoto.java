@@ -16,19 +16,19 @@ public class Gafanhoto extends Pessoa{
         this.login = login;
     }
 
-    public int getTotAssistindo() {
+    public int getTotAssistido() {
         return totAssistido;
     }
 
-    public void setTotAssistindo(int totAssistindo) {
-        this.totAssistido = totAssistindo;
+    public void setTotAssistido(int totAssistido) {
+        this.totAssistido = totAssistido;
     }
 
     @Override
     public String toString() {
         return "Gafanhoto{" + super.toString() +
                 "login='" + login + '\'' +
-                ", totAssistindo=" + totAssistido +
+                ", totAssistiddo=" + totAssistido +
                 '}';
     }
 }

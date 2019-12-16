@@ -13,6 +13,14 @@ public class Video implements AcoesVideo{
         this.reproduzindo = false;
     }
 
+    public int getViews() {
+        return views;
+    }
+
+    public void setViews(int views) {
+        this.views = views;
+    }
+
     public String getTitulo() {
         return titulo;
     }

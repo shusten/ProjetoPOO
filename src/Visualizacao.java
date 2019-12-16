@@ -17,7 +17,8 @@ public class Visualizacao {
     public Visualizacao(Gafanhoto espectador, Video filme) {
         this.espectador = espectador;
         this.filme = filme;
-        this.espectador.setTotAssistindo(this.espectador.getTotAssistindo() + 1);
+        this.espectador.setTotAssistido(this.espectador.getTotAssistido() + 1);
+        this.filme.setViews(this.filme.getViews() + 1);
     }
 
     public Gafanhoto getEspectador() {
